@@ -8,3 +8,4 @@ DESCRIPTION:
 *At this point :
 -> displays welcome message
 -> shows application message
+git
