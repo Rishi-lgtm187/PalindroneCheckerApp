@@ -9,3 +9,5 @@ DESCRIPTION:
 -> displays welcome message
 -> shows application message
 git
+ 
+UC2:Hardcode Message print
