@@ -17,3 +17,4 @@ UC5:stack-based
 UC6:queue-stack
 UC7:deque-based
 UC8:linked list
+UC9:recursive

@@ -1,25 +1,25 @@
 public class PalindroneCheckerApp {
+
+    private static boolean check(String s, int start, int end) {
+        if (start >= end)
+            return true;
+        if (s.charAt(start) != s.charAt(end))
+            return false;
+        return check(s, start + 1, end - 1);
+    }
+
     public static void main(String[] args) {
-        String input = "refer";
-        Deque<Character> deque = new ArrayDeque<>();
-        for (char c: input.toCharArray()){
-            deque.addLast(c);
-        }
-        boolean isPalindrome = true;
-        while(deque.size()>1){
-            char front = deque.removeFirst();
-            char rear = deque.removeLast();
-            if (front!= rear){
-                isPalindrome=false;
-                break;
-            }
-        }
-        if(isPalindrome){
-            System.out.println(input+" is a palindrome.");
-        } else {
-            System.out.println(input+" is NOT a palindrome.");
-        }
 
+        Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter a string: ");
+        String input = sc.nextLine();
+
+        boolean result = check(input, 0, input.length() - 1);
+
+        System.out.println("Input: " + input);
+        System.out.println("Is Palindrome? " + result);
+
+        sc.close();
     }
 }
