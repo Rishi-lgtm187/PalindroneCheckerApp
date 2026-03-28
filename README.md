@@ -14,3 +14,4 @@ UC2:Hardcode Message print
 UC3:added reverse string
 UC4:character array
 UC5:stack-based
+UC6:queue-stack
