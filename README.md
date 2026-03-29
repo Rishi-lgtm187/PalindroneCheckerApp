@@ -20,3 +20,4 @@ UC8:linked list
 UC9:recursive
 UC10:caseinsensitive
 UC11:objectoriented
+UC12:strategy pattern
