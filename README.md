@@ -21,3 +21,4 @@ UC9:recursive
 UC10:caseinsensitive
 UC11:objectoriented
 UC12:strategy pattern
+UC13:performancecomparison
